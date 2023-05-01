@@ -27,7 +27,7 @@ redisClient.on("connect", async () => console.log("Connected to Redis......."));
 const SET_ASYNC = promisify(redisClient.SET).bind(redisClient);
 const GET_ASYNC = promisify(redisClient.GET).bind(redisClient);
 
-//--------------------------------GLOBAL MIDDELWARES--------------------------------------------------------------------------------------------//
+//--------------------------------GLOBAL MIDDLEWARE--------------------------------------------------------------------------------------------//
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
