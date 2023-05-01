@@ -1,7 +1,7 @@
 {
-  "name": "project-4-group-30",
+  "name": "URL SHORTENER",
   "version": "1.0.0",
-  "description": "Group 30 4th project",
+  "description": "url shortener web app with redis project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aman300/project-4-group-30.git"
+    "url": "git+https://github.com/ZUBERKHAN034/url-shortener-web-app"
   },
-  "author": "Aman & Sonu",
+  "author": "Zuber Khan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aman300/project-4-group-30/issues"
+    "url": "https://github.com/ZUBERKHAN034/url-shortener-web-app/issues"
   },
-  "homepage": "https://github.com/Aman300/project-4-group-30#readme",
+  "homepage": "https://github.com/ZUBERKHAN034/url-shortener-web-app#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
     "ejs": "^3.1.8",
