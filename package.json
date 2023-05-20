@@ -1,11 +1,13 @@
 {
-  "name": "URL SHORTENER",
+  "name": "url-shortener",
   "version": "1.0.0",
   "description": "url shortener web app with redis project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,14 +20,11 @@
   },
   "homepage": "https://github.com/ZUBERKHAN034/url-shortener-web-app#readme",
   "dependencies": {
-    "body-parser": "^1.20.0",
     "ejs": "^3.1.8",
-    "express": "^4.18.1",
+    "express": "^4.18.2",
     "mongoose": "^6.3.3",
     "nodemon": "^2.0.16",
-    "redis": "^3.1.2",
-    "short-id": "^0.1.0-1",
-    "shortid": "^2.2.16",
-    "valid-url": "^1.0.9"
+    "redis": "^4.6.6",
+    "shortid": "^2.2.16"
   }
 }
